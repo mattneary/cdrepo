@@ -1,6 +1,6 @@
 {
   "name": "cdrepo",
-  "version": "0.2.0",
+  "version": "0.2.4",
   "description": "",
   "main": "cdrepo",
   "scripts": {
@@ -12,6 +12,6 @@
     "cdrepo": "cdrepo"
   },
   "scripts": {
-    "postinstall": "make"
+    "prepublish": "make"
   }
 }
