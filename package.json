@@ -9,7 +9,7 @@
   "author": "Matt Neary",
   "license": "MIT",
   "bin": {
-    "cdrepo": "./dist/build/cdrepo/cdrepo"
+    "cdrepo": "cdrepo"
   },
   "scripts": {
     "postinstall": "make"
