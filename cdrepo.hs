@@ -11,6 +11,6 @@ main =
      scriptParent <- canonicalizePath (script ++ "/..")
      let (_:scriptLines) = lines scriptContents
      let skipped = intercalate "\n" scriptLines
-     (_, _, _, p) <- createProcess (proc "/bin/bash" $ ["-c", skipped, script, scriptParent] ++ args)
+     (_, _, _, p) <- createProcess (proc "/bin/bash" $ ["-c", skipped, scriptParent] ++ args)
      waitForProcess p
 
