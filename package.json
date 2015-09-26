@@ -1,0 +1,17 @@
+{
+  "name": "cdrepo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "cdrepo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Neary",
+  "license": "MIT",
+  "bin": {
+    "cdrepo": "./dist/build/cdrepo/cdrepo"
+  },
+  "scripts": {
+    "postinstall": "make"
+  }
+}
